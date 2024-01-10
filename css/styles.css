@@ -502,4 +502,8 @@ footer {
   color: #FFFFFF;
   margin-bottom: 16px;
 }
+
+.list{
+  gap:16px;
+}
 /* -----------------FOOTER---------------- */
