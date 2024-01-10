@@ -484,7 +484,7 @@ footer {
  
 }
 
-.footer-container{
+.container-social{
   display: flex;
   align-items: baseline;
 }
