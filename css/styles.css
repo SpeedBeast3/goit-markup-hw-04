@@ -403,9 +403,13 @@ background: #FFF;
 padding-bottom: 32px;
 flex-direction: column;
 align-items: flex-start;
-
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.portfolio-list-item :hover{
+  transform: translateY(0%);
+}
+
 
 .portfolio-list-item img {
 object-fit: cover;
@@ -477,4 +481,21 @@ footer {
 
   max-width: 264px;
 }
+
+.footer-container{
+  display: flex;
+  align-items: baseline;
+}
+
+.social-text{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+
+
 /* -----------------FOOTER---------------- */
