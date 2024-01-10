@@ -486,12 +486,16 @@ footer {
   letter-spacing: 0.02em;
 
   max-width: 264px;
-  margin-right: 120px;
+ 
 }
 
 .footer-container{
   display: flex;
   align-items: baseline;
+}
+
+.footer-container div{
+  margin-right: 120px;
 }
 
 .social-text{
@@ -505,5 +509,13 @@ footer {
 
 .list{
   gap:16px;
+}
+
+.footer-icon :hover{
+  background-color: #31d0aa;
+}
+
+.footer-icon :focus{
+  background-color: #31d0aa;
 }
 /* -----------------FOOTER---------------- */
