@@ -480,6 +480,7 @@ footer {
   letter-spacing: 0.02em;
 
   max-width: 264px;
+  margin-right: 120px;
 }
 
 .footer-container{
@@ -496,6 +497,23 @@ footer {
   margin-bottom: 16px;
 }
 
+.container-social-icon{
+  display: flex;
+  gap: 16px;
+}
 
+.social-list-icon{
+  width: 40px;
+  height: 40px;
+}
 
+.footer-icon{
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* -----------------FOOTER---------------- */
